@@ -38,23 +38,15 @@ const loginUser = catchAsync(async (req, res) => {
 const logOut = catchAsync(async (req, res) => {
   req.session.destroy((err) => {
     if (err) {
-      res.status(500).json({
-        success: false,
-        message: 'Logged Out failed.',
-      });
+      throw new Error(err);
     } else {
       res.clearCookie('sessionId');
-      res.status(200).json({
-        success: true,
-        message: 'Logged Out successfully.',
-      });
     }
   });
 
   res.status(200).json({
     success: true,
     message: 'Logged Out successfully.',
-    // data: result,
   });
 });
 
