@@ -6,6 +6,6 @@ In this Application we registration, login and logout with session.
 
 ### Usage
 
-URL = https://course-review-khaki.vercel.app/
+URL = https://login-signup-sand.vercel.app/
 
-Postman Documentation Link: https://documenter.getpostman.com/view/30063298/2s9YsDjEvE
+Postman Documentation Link: https://documenter.getpostman.com/view/30063298/2s9YsFEu9k
