@@ -2,7 +2,7 @@
 
 ### Overview
 
-In this Application we registration, login and logout with session.
+In this Application User can register, login and logout. I have used express-session for session.
 
 ### Usage
 
